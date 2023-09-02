@@ -24,12 +24,14 @@ body {
     width: 350px;
     display: flex;
     flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
     padding: 0 15px 0 15px;
 }
 
 span {
     color: #242226;
-    font-size: small;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     padding: 10px 0 10px 0;
@@ -37,7 +39,7 @@ span {
 
 header {
     color: #1a1818;
-    font-size: 50px;
+    font-size: 60px;
     display: flex;
     justify-content: center;
     padding: 15px 0 15px 0;
@@ -46,12 +48,15 @@ header {
 .input-field {
     display: flex;
     flex-direction: column;
+            align-content: space-between;
 }
 
 .input-field .input {
-    height: 100px;
+    height: 90px;
     width: 87%;
-    border: 20px;
+    font-size: 25px;
+        align-content: space-between;
+    border: 15px;
     outline: none;
     border-radius: 30px;
     color: #090808;
@@ -73,7 +78,7 @@ i {
 .submit {
     border: none;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 25px;
     height: 45px;
     outline: none;
     width: 100%;
@@ -90,7 +95,7 @@ i {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: small;
+    font-size: 18px;
     color: #000000;
     margin-top: 10px;
 }
