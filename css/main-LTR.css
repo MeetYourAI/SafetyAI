@@ -1805,7 +1805,13 @@ body.rounded-btns .read-more {
   font-weight: bold;
   color: #201e1e;
   outline: none;
+  border: none;
 
+}
+@media (max-width: 991px) {
+  .ask input[type="text"] {
+    width: 100%;
+  }
 }
 
 .header-basic .menu-wrapper.show {
