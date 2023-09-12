@@ -2060,6 +2060,31 @@ body.rounded-btns .read-more {
 .hero-social-icons .dir-col .sc-list .sc-item:not(:last-child) {
   margin-bottom: 2rem;
 }
+.service-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img-wraper > img{
+border: none;
+border-radius: 70px;
+outline: none;
+opacity: 0.75;
+margin-top: 50px;
+width: 50%;
+}
+
+/* @media (max-width: 991px) {
+.hero-img-wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 50px;
+  }
+} */
 
 .page-hero {
   position: relative;
@@ -4648,7 +4673,10 @@ body.rounded-btns .read-more {
   color: var(--clr-main);
   background-color: var(--clr-white);
 }
+.pricing .plan {
+border-radius: 25px; 
 
+}
 /*    End pricing Section  */
 /*   Start stats section Rules  */
 .stats {
